@@ -5,9 +5,9 @@ This project contains source code and supporting files for a serverless applicat
 - check-guess-service - Code for the application's Lambda function written in TypeScript.
 - events - Invocation events that you can use to invoke the function.
 - check-guess-service/tests - Unit tests for the application code.
-- check-guess-service-template.yaml - A template that defines the application's AWS resources.
+- template.yaml - A template that defines the application's AWS resources.
 
-The application uses several AWS resources, including Lambda functions and an API Gateway API. These resources are defined in the `check-guess-service-template.yaml` file in this project.
+The application uses several AWS resources, including Lambda functions and an API Gateway API. These resources are defined in the `template.yaml` file in this project.
 
 ## Deploy the sample application
 
