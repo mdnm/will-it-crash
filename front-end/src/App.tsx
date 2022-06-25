@@ -12,7 +12,7 @@ function App() {
       </div>
       <div className="flex justify-center items-center gap-4 mb-32">
         <img src={bitcoinSvg} alt="Bitcoin Logo" />
-        <span className="text-4xl font-bold text-[#F9AA4B]">$ 21,400.84</span>
+        <span className="text-4xl font-bold text-[#F9AA4B]">$ 21,400.00</span>
       </div>
       <div className="w-full max-w-screen-md px-3 flex flex-col md:flex-row justify-between items-center gap-2 mb-auto">
         <button className="text-xl px-24 py-3 rounded-lg bg-red-500">
