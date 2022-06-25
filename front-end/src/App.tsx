@@ -5,7 +5,7 @@ function App() {
     <div className="min-h-screen flex flex-col items-center pt-24">
       <h1 className="text-5xl font-bold mb-6 text-center">Will it crash?!</h1>
       <div className="w-full max-w-screen-md px-3 flex flex-col md:flex-row justify-between items-center gap-2 text-xl mb-auto">
-        <span>Time since last update: 24s</span>
+        <span>Time since last update: 0s</span>
         <span>
           <span className="font-bold">Score</span>: 0
         </span>

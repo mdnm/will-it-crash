@@ -1,6 +1,6 @@
 # check-guess-service
 
-This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
+This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders
 
 - check-guess-service - Code for the application's Lambda function written in TypeScript.
 - events - Invocation events that you can use to invoke the function.
