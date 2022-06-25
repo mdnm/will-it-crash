@@ -1,45 +1,29 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
+import bitcoinSvg from "./assets/bitcoin.svg";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
-        <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
-        </p>
-        <p>
-          Edit <code>App.tsx</code> and save to test HMR updates.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-        </p>
-      </header>
+    <div className="min-h-screen flex flex-col items-center pt-24">
+      <h1 className="text-5xl font-bold mb-6 text-center">Will it crash?!</h1>
+      <div className="w-full max-w-screen-md px-3 flex flex-col md:flex-row justify-between items-center gap-2 text-xl mb-auto">
+        <span>Time since last update: 24s</span>
+        <span>
+          <span className="font-bold">Score</span>: 0
+        </span>
+      </div>
+      <div className="flex justify-center items-center gap-4 mb-32">
+        <img src={bitcoinSvg} alt="Bitcoin Logo" />
+        <span className="text-4xl font-bold text-[#F9AA4B]">$ 21,400.84</span>
+      </div>
+      <div className="w-full max-w-screen-md px-3 flex flex-col md:flex-row justify-between items-center gap-2 mb-auto">
+        <button className="text-xl px-24 py-3 rounded-lg bg-red-500">
+          YES! 😈
+        </button>
+        <button className="text-xl px-24 py-3 rounded-lg bg-green-500">
+          NO! 🥺
+        </button>
+      </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
