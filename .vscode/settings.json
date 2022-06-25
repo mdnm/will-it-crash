@@ -1,5 +1,0 @@
-{
-  "yaml.schemas": {
-    "https://raw.githubusercontent.com/awslabs/goformation/master/schema/sam.schema.json": "file:///home/dina/projects/will-it-crash/back-end/template.yaml"
-  }
-}

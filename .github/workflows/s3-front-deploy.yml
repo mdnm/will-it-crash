@@ -3,14 +3,9 @@ on:
   push:
     branches:
       - main
-    paths:
-      - front-end/**
 jobs:
   run:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./front-end
     env:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_ACCESS_KEY_SECRET }}
