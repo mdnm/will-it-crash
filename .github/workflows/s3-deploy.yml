@@ -2,7 +2,7 @@ name: Deploy on AWS S3
 on:
   push:
     branches:
-      - $default-branch
+      - main
 jobs:
   run:
     runs-on: ubuntu-latest
