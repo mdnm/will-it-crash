@@ -21,6 +21,8 @@ The rules are:
 
 The Bitcoin price is verified using the [Bitfinex Ticker API](https://docs.bitfinex.com/v1/v1/reference#rest-public-ticker)
 
+You can visit the production application by going to [https://willitcrash.co.uk](https://willitcrash.co.uk)
+
 ## Deploy
 
 This application uses [Vite](https://vitejs.dev) for it's tooling.
