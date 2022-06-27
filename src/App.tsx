@@ -106,7 +106,9 @@ function App() {
           localStorage.setItem(PLAYER_ID_KEY, loadPlayerData.playerId);
           setGameState({
             ...gameState,
-            ...loadPlayerData,
+            btcPrice: loadPlayerData.btcPrice,
+            playerId: loadPlayerData.playerId,
+            lastTimeStamp: loadPlayerData.timestamp,
           });
         }
       } catch {
